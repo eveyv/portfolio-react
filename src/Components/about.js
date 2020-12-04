@@ -19,11 +19,9 @@ import react, { Component } from 'react';
         }
     
         return (
-            <sectio id="about">
+            <section id="about">
 
-                
             </section>
-        );
         );
     }
 }
