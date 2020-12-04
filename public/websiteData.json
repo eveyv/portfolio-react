@@ -1,0 +1,95 @@
+{
+    "main": {
+      "name": "Everett",
+      "occupation": "Full-Stack Web and Application Developer",
+      "description": "I want to be a better developer tomorrow than I am today. That's one of my most important goals every day. ",
+      "image": "Everett.jpeg",
+      "bio": "I'm a Full-Stack developer currently in the process of testing the waters with a web-development business geared towards helping small businesses modernize their online presence. I am currently working on building a showcase for my work.",
+      "contactmessage": "Feel free to get in touch anytime - reach out on Github, Linkedin, or by email.",
+      "email": "everett@everettyeaw.com",
+      "address": {
+        "state": "Maine, USA"
+      },
+      "website": "http://www.everettyeaw.com",
+      "resumedownload": "http://www.everettyeaw.com",
+      "social": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/everett-yeaw/",
+          "className": "fa fa-linkedin"
+        },
+        {
+          "name": "github",
+          "url": "http://github.com/eveyv",
+          "className": "fa fa-github"
+        }
+      ]
+    },
+    "resume": {
+      "skillmessage": "Below is my tech-relevant resume:",
+      "education": [
+        {
+          "school": "Launch Academy",
+          "degree": "Full Stack Application Engineering",
+          "graduated": "February 2020",
+          "description": "An immersive, part-time into full-time, bootcamp that ran from September, 2019 => February, 2020 in Boston, MA. This program worked with dozens of tech companies in the Boston area to develop a dynamic curriculum with workflow meant to emulate AGILE methodologies found in the workplace. Content and skills learned in the course were tailored to reflect what local industry professionals most desired to hire for. "
+        }
+      ],
+      "work": [
+        {
+  
+        }
+      ],
+      "skills": [
+        {
+          "name": "ReactJs",
+        },
+        {
+          "name": "Javascript",
+        },
+        {
+          "name": "CSS",
+        },
+        {
+          "name": "Git",
+        },
+        {
+          "name": "Heroku",
+        },
+        {
+          "name": "HTML5",
+        },
+        {
+          "name": "Node.js",
+        },
+        {
+          "name": "Ruby / Ruby on Rails",
+        },
+        {
+          "name": "PostgresSQL",
+        }
+      ]
+    },
+    "portfolio": {
+      "projects": [
+        {
+          "title": "Tetris.js",
+          "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+          "image": "",
+          "url": ""
+        },
+        {
+          "title": "Adventure.NE",
+          "category": " Work-in-progress CRUD application aimed at outdoor activities around New England.  Using React, Rails, PostgresSQL with bootstrap.",
+          "image": "",
+          "url": ""
+        },
+        {
+          "title": "Pokemon Trivia",
+          "category": "Multiple choice React Pokemon quiz",
+          "image": "",
+          "url": ""
+        }
+      ]
+    }
+  }
