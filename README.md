@@ -3,4 +3,4 @@ To get started, make sure you have create-react-app installed on your machine. I
 
 Then, ```npx create-react-app your-app-name``` and ```cd``` into the new directory. From here, you can get started.
 
-More dependencies will be added.
+More dependencies will be added over time.
