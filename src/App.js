@@ -1,10 +1,12 @@
 import logo from './logo.svg';
-import React from 'react';
+import React, { useState, useEffect, Component } from 'react';
 import './App.css';
 import Navbar from './Components/navbar'
 import BackgroundImagePage from './Components/background'
 
 function App() {
+
+
   return (
     <div className="App">
       <BackgroundImagePage />
