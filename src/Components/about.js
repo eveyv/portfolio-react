@@ -7,7 +7,6 @@ import react, { Component } from 'react';
 
         if(this.props.data){
         var name = this.props.data.name;
-        var profilepic= "images/"+this.props.data.image;
         var bio = this.props.data.bio;
         var street = this.props.data.address.street;
         var city = this.props.data.address.city;
@@ -20,7 +19,11 @@ import react, { Component } from 'react';
     
         return (
             <section id="about">
-
+                <div>
+                    <h1>
+                        {name}
+                    </h1>
+                </div>
             </section>
         );
     }

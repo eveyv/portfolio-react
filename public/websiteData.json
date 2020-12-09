@@ -42,31 +42,31 @@
       ],
       "skills": [
         {
-          "name": "ReactJs",
+          "name": "ReactJs"
         },
         {
-          "name": "Javascript",
+          "name": "Javascript"
         },
         {
-          "name": "CSS",
+          "name": "CSS"
         },
         {
-          "name": "Git",
+          "name": "Git"
         },
         {
-          "name": "Heroku",
+          "name": "Heroku"
         },
         {
-          "name": "HTML5",
+          "name": "HTML5"
         },
         {
-          "name": "Node.js",
+          "name": "Node.js"
         },
         {
-          "name": "Ruby / Ruby on Rails",
+          "name": "Ruby / Ruby on Rails"
         },
         {
-          "name": "PostgresSQL",
+          "name": "PostgresSQL"
         }
       ]
     },
