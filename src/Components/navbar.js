@@ -4,13 +4,13 @@ function Navbar() {
     return(
         <div className="first row">
             <div className="col-med-3">
-                <p>Test commit</p>
+                <p>About</p>
             </div>
             <div className="col-med-3">
-                <p>Test commit</p>
+                <p>Projects</p>
             </div>
             <div className="col-med-3">
-                <p>Test commit</p>
+                <p>Skills</p>
             </div>
         </div>
     )

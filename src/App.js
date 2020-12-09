@@ -4,17 +4,33 @@ import './App.css';
 import Navbar from './Components/navbar'
 import BackgroundImagePage from './Components/background'
 
-function App() {
+class App extends Component {
+    constructor(props) {
+      super(props)
+   
+      this.state = {
+        data: null,
+      };
+    }
+   
+    componentDidMount() {
+      fetch('../public.websiteData')
+        .then(response => response.json())
+        .then(data => this.setState({ data }));
+      
+    }
 
+  render() { 
 
-  return (
+    return (
     <div className="App">
       <BackgroundImagePage />
       <header className="App-header">
       <Navbar />
       </header>
     </div>
-  );
+    );
+  }
 }
 
 export default App;
