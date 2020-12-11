@@ -2,15 +2,15 @@ import React, { Component } from 'react'
 
 class TechBio extends Component {
     render(){
+      if(this.props.data.resumeData){
+        var resume= this.props.data.resumeData.resume;
+      }
 
-        
-        if(this.props.data){
-  
-          }
-          
         return(
             <div className="first row">
-               
+                  <p>
+                    {resume}
+                  </p>
             </div>
           )
         }
