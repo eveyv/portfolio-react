@@ -4,14 +4,14 @@ class TechBio extends Component {
     render(){
       if(this.props.data){
         var resumeMessage = this.props.data.skillmessage;
-        //.map skills next
+        //.map skills here
       }
 
         return(
             <div className="content">
-                  <p> {resumeMessage} </p>
-                  <p>  </p>
-            </div>
+                <p className="center-column"> {resumeMessage} </p>
+                //.forEach education info here
+             </div>
           )
         }
     }
